@@ -9,6 +9,8 @@
 + git log : 查看详细提交历史
     - git log --pretty=oneline 查看简化提交历史
 + git reflog : 查看命令历史
++ git stash : 储藏工作现场
++ git stash list : 查看储藏列表
 ## 撤销操作
 + git reset : 回退版本
     - git reset --hard HEAD^ : 回退到上一个版本
