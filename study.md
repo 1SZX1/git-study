@@ -12,3 +12,4 @@
 + git reset : 回退版本
     - git reset --hard HEAD^ : 回退到上一个版本
     - git reset --hard commit_id : 回退到指定commit_id版本
+新增
