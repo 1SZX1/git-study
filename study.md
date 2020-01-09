@@ -9,13 +9,14 @@
 + git log : 查看详细提交历史
     - git log --pretty=oneline 查看简化提交历史
 + git reflog : 查看命令历史
++ git stash : 把当前工作现场“储藏”起来，等以后恢复现场后继续工作
++ git stash list : 查看储藏列表
 ## 撤销操作
 + git reset : 回退版本
     - git reset --hard HEAD^ : 回退到上一个版本
     - git reset --hard commit_id : 回退到指定commit_id版本
 + git checkout -- 文件名 / git restore &lt;文件名&gt; : 丢弃文件工作区的改动，回到最近一次git commit或git add时的状态。
 + git reset HEAD &lt;文件名&gt; : 把暂存区的修改撤销掉，重新放回工作区
-+ git stash : 把当前工作现场“储藏”起来，等以后恢复现场后继续工作
 ## 分支操作
 + git checkout -b dev / git switch -c dev: 创建并切换到dev分支
     - git branch dev : 创建dev分支
