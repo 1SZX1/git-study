@@ -34,4 +34,3 @@
 + ssh-keygen -t rsa -C "我的邮箱地址" : 创建SSH Key
 + git remote add origin 远程仓库地址 : 关联远程仓库
 + git clone : 从远程仓库克隆
-工作现场sdfd
