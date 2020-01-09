@@ -19,7 +19,8 @@
 + git checkout -b dev / git switch -c dev: 创建并切换到dev分支
     - git branch dev : 创建dev分支
     - git checkout dev / git switch dev: 切换到dev分支
-+ git merge dev: 合并dev分支到当前分支
++ git merge dev: 合并dev分支到当前分支(fast forward合并)
++ git merge --no-ff -m "提交信息" dev : 合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
 + git branch -d dev : 删除dev分支
 + git log --graph : 查看分支合并图
 ## 常用远程操作
