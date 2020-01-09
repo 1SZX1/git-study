@@ -14,6 +14,7 @@
     - git reset --hard commit_id : 回退到指定commit_id版本
 + git checkout -- 文件名 / git restore &lt;文件名&gt; : 丢弃文件工作区的改动，回到最近一次git commit或git add时的状态。
 + git reset HEAD &lt;文件名&gt; : 把暂存区的修改撤销掉，重新放回工作区
++ git merge dev: 合并dev分支到当前分支
 ## 常用远程操作
 + ssh-keygen -t rsa -C "我的邮箱地址" : 创建SSH Key
 + git remote add origin 远程仓库地址 : 关联远程仓库
