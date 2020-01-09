@@ -21,6 +21,7 @@
     - git checkout dev / git switch dev: 切换到dev分支
 + git merge dev: 合并dev分支到当前分支
 + git branch -d dev : 删除dev分支
++ git log --graph : 查看分支合并图
 ## 常用远程操作
 + ssh-keygen -t rsa -C "我的邮箱地址" : 创建SSH Key
 + git remote add origin 远程仓库地址 : 关联远程仓库
