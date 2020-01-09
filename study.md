@@ -12,5 +12,5 @@
 + git reset : 回退版本
     - git reset --hard HEAD^ : 回退到上一个版本
     - git reset --hard commit_id : 回退到指定commit_id版本
-+ git restore -- file : 丢弃文件工作区的改动，回到最近一次git commit或git add时的状态。
++ git checkout -- file / git restore &lt;file&gt; : 丢弃文件工作区的改动，回到最近一次git commit或git add时的状态。
 + git reset HEAD &lt;file&gt; : 把暂存区的修改撤销掉，重新放回工作区
