@@ -9,8 +9,9 @@
 + git log : 查看详细提交历史
     - git log --pretty=oneline 查看简化提交历史
 + git reflog : 查看命令历史
-+ git stash : 储藏工作现场
-+ git stash list : 查看储藏列表
++ git stash : 把当前工作现场“储藏”起来，等以后恢复现场后继续工作
++ git stash list : 查看储藏
++ git cherry-pick commit_id : 复制一个特定的提交到当前分支
 ## 撤销操作
 + git reset : 回退版本
     - git reset --hard HEAD^ : 回退到上一个版本
